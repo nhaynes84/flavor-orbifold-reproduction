@@ -1,0 +1,31 @@
+#!/usr/bin/env python3
+from __future__ import annotations
+
+TARGET = {"ratio": 0.612, "mu": 1.460, "r": 4.000, "w": 0.600}
+EXTRA_TARGET = {"split_ratio_secondary": 6.10 / 1.15}
+F_AREA = 2.0 / 9.0
+
+DEFAULT_TRAIN_PHIS = [0.12, 0.2, 0.28, 0.36, 0.44, 0.52]
+DEFAULT_TEST_PHIS = [0.16, 0.24, 0.32, 0.4, 0.48, 0.56]
+DEFAULT_GUARD_PHIS = [0.52, 0.56]
+
+WT_MU_GRID = [0.8, 1.0, 1.2, 1.5]
+WT_R_GRID = [0.8, 1.0, 1.3, 1.7]
+WT_W_GRID = [0.8, 1.0, 1.2]
+RIDGE_GRID = [1e-3, 5e-3, 1e-2, 2e-2]
+SAT_ALPHA_GRID = [0.04, 0.06, 0.08, 0.10]
+K_MIX_MIN = 0.0
+K_MIX_MAX = 2.0
+K_MIX_STEPS = 81
+
+R_PENALTY_1_THRESHOLD = 6.0
+R_PENALTY_1_SCALE = 1.5
+R_PENALTY_2_THRESHOLD = 8.0
+R_PENALTY_2_SCALE = 2.5
+
+SCORE_WEIGHT_TRAIN = 1.0
+SCORE_WEIGHT_TEST = 0.5
+SCORE_WEIGHT_TEST_P90 = 0.3
+SCORE_WEIGHT_GUARD = 0.2
+
+REPORT_PROBE_PHI = 0.35
