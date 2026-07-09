@@ -1,5 +1,7 @@
 # Reproduction package: quantized-position flavor model
 
+**Archived:** [DOI 10.5281/zenodo.21285294](https://doi.org/10.5281/zenodo.21285294) — papers A/B + prediction registry + this repo (v1.0.0 snapshot), CC-BY-4.0.
+
 Code, tests, significance protocol, and dated prediction registry
 supporting:
 
